@@ -25,7 +25,11 @@ Rešenje će obuhvatiti sekvencijalnu i paralelnu implementaciju, detaljnu anali
 #### Sekvencijalna implementacija (za ocenu 7)
 
 Prvi korak je implementacija sekvencijalnog rešenja. Biće kreirana rekurzivna funkcija koja kao argument prima matricu i vraća njenu determinantu. Bazni slučaj rekurzije je matrica dimenzija $2 \times 2$, za koju se determinanta računa direktno po formuli: 
-$\det \begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$
+
+$$
+ \det \begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc
+$$
+
 Za sve veće matrice, funkcija će primenjivati formulu Laplasovog razvoja.
 
 #### Paralelna implementacija (za ocenu 7)
@@ -42,7 +46,7 @@ Nakon implementacije obe verzije, biće sprovedeni eksperimenti **jakog** i **sl
 
 #### Vizualizacija rešenja (za ocenu 10)
 
-Poslednji korak projekta je vizualizacija rezultata analize performansi, koja će biti realizovana u potpunosti unutar Rust okruženja. U tu svrhu koristiće se grafička biblioteka, kao što je **Plotters**.
+Poslednji korak projekta je vizualizacija rezultata analize performansi, koja će biti realizovana u potpunosti unutar Rust okruženja. U tu svrhu koristiće se grafička biblioteka **Plotters**.
 
 Na osnovu podataka prikupljenih tokom faze testiranja, Rust aplikacija će generisati sledeće grafike u vidu `.png` ili `.svg` datoteka:
 1.  **Grafik jakog skaliranja**: Prikazaće ostvareno ubrzanje u odnosu na broj procesorskih jezgara za fiksnu veličinu problema. Na grafiku će biti iscrtana i linija idealnog ubrzanja prema Amdalovom zakonu.
@@ -54,13 +58,23 @@ Ovaj pristup omogućava da ceo proces – od izvršavanja, preko analize, do viz
 
 Projekat će biti organizovan na sledeći način:
 .
+
 ├── src/
+
 │   ├── main.rs         # Glavna logika, parsiranje argumenata i pokretanje eksperimenata
+
 │   ├── sequential.rs   # Modul sa sekvencijalnom implementacijom
+
 │   ├── parallel.rs     # Modul sa paralelnom implementacijom
+
 │   └── visualization.rs # Modul za generisanje grafika na osnovu rezultata
+
 ├── charts/             # Direktorijum gde će biti sačuvani generisani grafici
+
 ├── report/
+
 │   └── report.pdf      # Izveštaj sa analizom skaliranja i rezultatima
+
 ├── Cargo.toml
+ 
 └── README.md
