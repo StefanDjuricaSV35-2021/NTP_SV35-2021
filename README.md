@@ -54,6 +54,11 @@ Na osnovu podataka prikupljenih tokom faze testiranja, Rust aplikacija će gener
 1.  **Grafik jakog skaliranja**: Prikazaće ostvareno ubrzanje u odnosu na broj procesorskih jezgara za fiksnu veličinu problema za obe paralelne implementacije (Python i Rust). Na grafiku će biti iscrtana i linija idealnog ubrzanja prema Amdalovom zakonu.
 2.  **Grafik slabog skaliranja**: Prikazaće skaliranje efikasnosti za problem čija veličina raste proporcionalno broju jezgara za obe paralelne implementacije. Na grafiku će biti iscrtana i linija idealnog ubrzanja prema Gustafsonovom zakonu.
 
+
+### 3. Struktura projekta
+
+Projekat će biti organizovan na sledeći način kako bi se jasno odvojile Python i Rust implementacije:
+
 .
 
 ├── python/
@@ -82,6 +87,3 @@ Na osnovu podataka prikupljenih tokom faze testiranja, Rust aplikacija će gener
 
 └── README.md
 
-### 3. Struktura projekta
-
-Projekat će biti organizovan na sledeći način kako bi se jasno odvojile Python i Rust implementacije:
