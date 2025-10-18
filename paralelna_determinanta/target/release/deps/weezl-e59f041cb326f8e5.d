@@ -1,0 +1,10 @@
+C:\Users\Stefan Djurica\Desktop\NTP_SV35-2021\paralelna_determinanta\target\release\deps\weezl-e59f041cb326f8e5.d: C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\lib.rs C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\decode.rs C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\encode.rs C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\error.rs
+
+C:\Users\Stefan Djurica\Desktop\NTP_SV35-2021\paralelna_determinanta\target\release\deps\libweezl-e59f041cb326f8e5.rlib: C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\lib.rs C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\decode.rs C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\encode.rs C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\error.rs
+
+C:\Users\Stefan Djurica\Desktop\NTP_SV35-2021\paralelna_determinanta\target\release\deps\libweezl-e59f041cb326f8e5.rmeta: C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\lib.rs C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\decode.rs C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\encode.rs C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\error.rs
+
+C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\lib.rs:
+C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\decode.rs:
+C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\encode.rs:
+C:\Users\Stefan\ Djurica\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\weezl-0.1.10\src\error.rs:
